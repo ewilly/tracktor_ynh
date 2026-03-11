@@ -17,12 +17,12 @@ demo = "https://tracktor.bytedge.in"
 code = "https://github.com/javedh-dev/tracktor"
 
 [integration]
-yunohost = '>= 12.1.17'
+yunohost = '>= 12.1.39'
 helpers_version = "2.1"
-architectures = "amd64" 
+architectures = ["amd64", "arm64"]
 multi_instance = false
-ldap = "false" 
-sso = "false"
+ldap = false
+sso = false
 disk = "50M"
 ram.build = "50M"
 ram.runtime = "50M"
@@ -56,4 +56,4 @@ ram.runtime = "50M"
 	[resources.ports]
 
 	[resources.nodejs]
-	nodejs_version=24
+	version = "24.10.0"
