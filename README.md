@@ -18,6 +18,10 @@ Vehicle Tracking Management System
 <a href="https://github.com/YunoHost-Apps/tracktor_ynh/issues"><img height="100px" src="https://github.com/YunoHost/yunohost-artwork/raw/refs/heads/main/badges/neopossum-badges/badge_report_an_issue.svg"/></a>
 </div>
 
+
+## Screenshots
+![Screenshot of Tracktor](./doc/screenshots/dashboard-light.png)
+
 ## 📦 Developer info
 
 [![Automatic tests level](https://apps.yunohost.org/badge/cilevel/tracktor)](https://ci-apps.yunohost.org/ci/apps/tracktor/)
