@@ -5,12 +5,12 @@
 #=================================================
 
 myynh_install() {
-    pushd $install_dir
-        ynh_exec_as_app npm install --production --ignore-scripts
-        ynh_exec_as_app npm run build
-    popd
+	pushd $install_dir
+		ynh_exec_as_app npm install
+		ynh_exec_as_app npm run build
+	popd
 
-    mkdir -p $data_dir/uploads
+	mkdir -p $data_dir/uploads
 }
 
 # Set permissions
