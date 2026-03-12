@@ -6,8 +6,8 @@
 
 myynh_install() {
 	pushd $install_dir
-		ynh_exec_as_app npm install
-		ynh_exec_as_app npm run build
+		ynh_hide_warnings ynh_exec_as_app npm install
+		ynh_hide_warnings ynh_exec_as_app npm run build
 	popd
 
 	mkdir -p $data_dir/uploads
