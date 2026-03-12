@@ -1,7 +1,7 @@
 NODE_ENV=production
 
 # Set this to sub-path - /
-BASE_URL=/__PATH__
+BASE_URL="__PATH__"
 
 # Set this to the path of the database file. Default - ./tracktor.db
 DB_PATH="__DATA_DIR__/tracktor.db"
