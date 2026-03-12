@@ -7,7 +7,7 @@
 myynh_install() {
 	# Install with npm
 	pushd $install_dir
-		ynh_hide_warnings ynh_exec_as_app npm install --production --ignore-scripts
+		ynh_hide_warnings ynh_exec_as_app npm install
 		ynh_hide_warnings ynh_exec_as_app npm run build
 	popd
 
