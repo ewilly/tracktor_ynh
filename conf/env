@@ -22,7 +22,7 @@ BODY_SIZE_LIMIT=Infinity
 #LOG_REQUESTS=true
 
 # Set the logging level. Options - error, warn, info, verbose, debug, silly. Default - info
-LOG_LEVEL="debug"
+#LOG_LEVEL="info"
 
 # Enable demo mode. Default - false
 #TRACKTOR_DEMO_MODE=false
