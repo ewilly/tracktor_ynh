@@ -10,16 +10,16 @@ ynh_script_progression "Setting up source files..."
 ynh_setup_source --dest_dir="$install_dir"
 
 #=================================================
-# BUILD APP
-#=================================================
-ynh_script_progression "Building $app..."
-myynh_install
-
-#=================================================
 # ADD A CONFIGURATION
 #=================================================
 ynh_script_progression "Adding app's configuration file..."
 ynh_config_add --template="env" --destination="$install_dir/.env"
+
+#=================================================
+# BUILD APP
+#=================================================
+ynh_script_progression "Building $app..."
+myynh_install
 
 #=================================================
 # SYSTEM CONFIGURATION
