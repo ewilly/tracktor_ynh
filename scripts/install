@@ -8,6 +8,7 @@ source /usr/share/yunohost/helpers
 #=================================================
 ynh_script_progression "Setting up source files..."
 ynh_setup_source --dest_dir="$install_dir"
+sed -i "1i import 'dotenv/config';" "$install_dir/svelte.config.js"
 
 #=================================================
 # ADD A CONFIGURATION
