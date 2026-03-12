@@ -58,6 +58,11 @@ ram.runtime = "250M"
 
 	[resources.permissions]
 	main.url = "/"
+	main.auth_header = false
+	api.url = "/api"
+	api.allowed = "visitors"
+	api.show_tile = false
+	api.protected = true
 
 	[resources.ports]
 
