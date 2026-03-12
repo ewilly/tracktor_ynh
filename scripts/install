@@ -14,6 +14,11 @@ sed -i "1i import 'dotenv/config';" "$install_dir/svelte.config.js"
 # ADD A CONFIGURATION
 #=================================================
 ynh_script_progression "Adding app's configuration file..."
+if [ "$path" == "/" ] then
+    path_env=""
+else
+    path_env="$path"
+fi
 ynh_config_add --template="env" --destination="$install_dir/.env"
 
 #=================================================
