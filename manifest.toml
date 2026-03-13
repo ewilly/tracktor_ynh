@@ -32,10 +32,6 @@ ram.runtime = "250M"
 	[install.domain]
 	type = "domain"
 
-	[install.path]
-	type = "path"
-	default = "/tracktor"
-
 	[install.init_main_permission]
 	type = "group"
 	default = "visitors"
@@ -58,7 +54,6 @@ ram.runtime = "250M"
 
 	[resources.permissions]
 	main.url = "/"
-	main.auth_header = false
 	api.url = "/api"
 	api.allowed = "visitors"
 	api.auth_header = false

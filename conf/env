@@ -2,7 +2,7 @@
 NODE_ENV="production"
 
 # Server Configuration
-BASE_URL="__PATH_ENV__"
+#BASE_URL=""
 HOST="127.0.0.1"
 PORT=__PORT__
 
